@@ -332,7 +332,7 @@
   
   
   (method override (templates-directory self)
-    {Directory Project "lib" "gaia" "templates"})
+    {Directory Resources "lib" "gaia" "templates"})
   
 
   ;;;

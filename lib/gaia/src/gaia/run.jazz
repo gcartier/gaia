@@ -65,6 +65,10 @@
             (proc presence)))))))
 
 
+(definition (setup-aliases)
+  (register-resources-alias 'Gaia 'gaia))
+
+
 (definition (setup-login)
   (show-jazz-profiles? #f))
 
@@ -72,6 +76,7 @@
 (definition (run descriptor)
   (setup-snapshot)
   (setup-presence)
+  (setup-aliases)
   (setup-login)
   (boot-environment (new Gaia-Application)))
 
