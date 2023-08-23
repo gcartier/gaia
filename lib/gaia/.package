@@ -31,6 +31,7 @@
                                 jazz.designer
                                 jazz.editor.dart
                                 jazz.ide
+                                jazz.moment
                                 gaia.install))
             (gaia.install (update gaia.install)
                           (dependencies jazz)))
