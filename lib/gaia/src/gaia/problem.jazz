@@ -25,7 +25,7 @@
   #f)
 
 (definition *problem-prefix*
-  "server")
+  "gaia")
 
 (definition *problem-port*
   #f)
